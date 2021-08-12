@@ -1,7 +1,48 @@
 .App {
   text-align: center;
 }
+.container{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-container{
+  text-align: center;
+}
+.risk-item-container {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+}
+.risk-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  border: 1px solid black;
+}
+.risk-submit {
+  padding: 5px 10px;
+  border: 1px solid blue;
+}
+.risk-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grid {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+.grid-data, .grid-header {
+  border: 1px solid black;
+}
+.grid-data {
+  padding: 10px 30px;
+}
 
+.risk-button:hover, .risk-submit:hover {
+  cursor: pointer;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
